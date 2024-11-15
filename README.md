@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 ## Project Structure
 
-Cordon organizes modular components, content, and layouts to streamline development and content management.
+Cordon organiza componentes modulares, contenido, y layouts para hacer streamline el desarrollo y el manejo de contenido.
 
-
+```md
 
 src/
 ├── assets/               
