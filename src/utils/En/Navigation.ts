@@ -1,28 +1,28 @@
 // An array of links for navigation bar Arreglo de links para la navegacion
-// Español
+//English
 const navBarLinks = [
     { name: "Home", url: "/" },
-    { name: "Servicios", url: "/services" },
+    { name: "Services", url: "/services" },
     { name: "Vlog", url: "/blog" },
-    { name: "Contactanos", url: "/contact" },
+    { name: "Contact us", url: "/contact" },
   ];
   // An array of links for footer un arreglo de links para el footer
   const footerLinks = [
     {
-      section: "Ecosistema",
+      section: "Ecosystem",
       links: [
-        { name: "Documentación", url: "/welcome-to-docs/" },
-        { name: "Herramientas y Equipo", url: "/products" },
-        { name: "Construction Services", url: "/services" },
+        { name: "Documentation", url: "/welcome-to-docs/" },
+        { name: "Tools & Equipment", url: "/products" },
+        { name: "Guard services", url: "/services" },
       ],
     },
     {
-      section: "Compañia",
+      section: "Company",
       links: [
-        { name: "Sobre nosotros", url: "#" },
-        { name: "Blog", url: "#" },
-        { name: "Puestos ", url: "#" },
-        { name: "Clientes", url: "#" },
+        { name: "About us", url: "#" },
+        { name: "Vlog", url: "#" },
+        { name: "Careers", url: "#" },
+        { name: "Clients", url: "#" },
       ],
     },
   ];
