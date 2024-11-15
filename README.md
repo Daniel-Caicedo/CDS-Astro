@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Project Structure
 
 Cordon organizes modular components, content, and layouts to streamline development and content management.
@@ -34,6 +35,29 @@ src/
 │   ├── robots.txt.ts     # Dynamically generates robots.txt
 │   └── services.astro
 └── utils/                # Shared utility functions and helpers
+=======
+
+
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   └── Card.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
+
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory.
+>>>>>>> 3f9f8265809b7e52cdc59a92bfeaad91f84b26e0
 
 ## 🧞 Commands
 
