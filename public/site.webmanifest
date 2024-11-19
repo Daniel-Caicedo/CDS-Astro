@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "manifiesto de la pagina de cordon",
+  "short_name": "manifiesto cordon",
   "icons": [
     {
       "src": "/public/web-app-manifest-192x192.png",
