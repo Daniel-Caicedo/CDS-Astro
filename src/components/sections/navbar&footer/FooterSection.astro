@@ -9,13 +9,13 @@ import BrandLogo from "@components/BrandLogo.astro";
 import { SITE } from "@data/constants";
 
 // Select the correct translation based on the page's lang prop:
-const strings = Astro.currentLocale === "fr" ? enStrings : esStrings;
+const strings = Astro.currentLocale === "en" ? enStrings : esStrings;
 
 // Define the variables that will be used in this component
 const sectionThreeTitle: string = Astro.currentLocale === "fr" ? "Stay up to date" : "Mantente al dia";
 const sectionThreeContent: string = Astro.currentLocale === "fr" ? "Restez informé des derniers outils et des offres exclusives." :
   "Mantente al tanto de la informacion mas reciente.";
-const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Creado por";
+const crafted: string = Astro.currentLocale === "fr" ? "Made by" : "Creado por";
 ---
 
 <footer class="w-full bg-neutral-300 dark:bg-neutral-900">
