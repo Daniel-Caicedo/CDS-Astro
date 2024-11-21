@@ -11,7 +11,7 @@ const navBarLinks = [
     {
       section: "Ecosistema",
       links: [
-        { name: "Documentación", url: "/welcome-to-docs/" },
+       
         { name: "Herramientas y Equipo", url: "/products" },
        
       ],
