@@ -38,7 +38,7 @@ interface Props {
 <!-- Defining a grid container that holds all the content -->
 <section
   class="mx-auto grid max-w-[85rem] gap-4 px-4 py-14 sm:px-6 md:grid-cols-2 md:items-center md:gap-8 lg:px-8 2xl:max-w-full"
-   style="background-image: url('/src/images/Fondo-de-pantalla-CDS-derecha.jpg'); background-size: cover; background-position: center;"
+  
 >
 
   <!-- Title and description -->
@@ -70,7 +70,9 @@ interface Props {
     
   </div>
   <!-- Hero Image Section -->
-  <div class="flex w-full">
+  <div class="flex w-full"
+   style="background-image: url('/src/images/Fondo-de-pantalla-CDS-derecha.jpg'); background-size: cover; background-repeat: no-repeat; background-position: right;"
+  >
       <div class="top-12 overflow-hidden">
 	{src && alt &&
 	<Image
