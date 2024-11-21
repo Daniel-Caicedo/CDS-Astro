@@ -12,7 +12,7 @@ export default {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      black: "#000000",
+      black: "#b9251e",
       white: "#ffffff",
       gray: colors.gray,
       indigo: colors.indigo,
