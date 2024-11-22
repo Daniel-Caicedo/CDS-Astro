@@ -12,7 +12,7 @@ export default {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      black: "#b9251e",
+      black: "#000000",
       white: "#ffffff",
       gray: colors.gray,
       indigo: colors.indigo,
@@ -38,6 +38,7 @@ export default {
       screens: {
         'custom': '300px',
       },
+  
     },
     
   },
