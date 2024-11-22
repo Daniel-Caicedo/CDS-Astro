@@ -2,9 +2,9 @@
 // Español
 const navBarLinks = [
     { name: "Home", url: "/" },
-    { name: "Servicios", url: "/services" },
-    { name: "Vlog", url: "/blog" },
-    { name: "Contactanos", url: "/contact" },
+    { name: "Servicios", url: "#" },
+    { name: "Vlog", url: "#" },
+    { name: "Contactanos", url: "#" },
   ];
   // An array of links for footer un arreglo de links para el footer
   const footerLinks = [
