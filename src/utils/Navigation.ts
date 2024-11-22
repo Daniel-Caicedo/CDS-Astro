@@ -20,7 +20,7 @@ const navBarLinks = [
       section: "Compañia",
       links: [
         { name: "Sobre nosotros", url: "#" },
-        { name: "Blog", url: "#" },
+        { name: "Vlog", url: "#" },
         { name: "Puestos ", url: "#" },
         { name: "Clientes", url: "#" },
       ],
