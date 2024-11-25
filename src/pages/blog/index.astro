@@ -1,0 +1,56 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import {SITE} from "@/data_files/constants"
+
+// Define variables for page content
+const title: string = "Tu portal a toda la informacion referente a la seguridad";
+const subTitle: string =
+  "Explore las últimas noticias, consejos y perspectivas de Cordon de seguridad para mejorar sus proyectos de construcción. Desde productos destacados hasta estrategias de gestión de proyectos, nuestro blog es su recurso de referencia para todo lo relacionado con la ferretería y la construcción.";
+const secondTitle: string = "Insights";
+const secondSubTitle: string =
+  "Stay up-to-date with the latest trends and developments in the construction industry with insights from ScrewFast's team of industry experts. ";
+
+const pageTitle: string = `Blog | ${SITE.title}`;
+---
+
+<MainLayout
+title={pageTitle}
+structuredData={{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://CDS/blog",
+  url: "https://CSS/blog",
+  name: "Blog | cordon de seguridad",
+  description:
+    "mantente al dia con los mas altos estandares de la industria y noticias de cordon de seguridad",
+  isPartOf: {
+    "@type": "WebSite",
+    url: "https://cordonseguridadltda.com.co",
+    name: "ScrewFast",
+    description:
+      "Cordon ofrece servicios de primera con convacion , respeto , resposabilidad , honestidad , huminidad para cumplir su necesidades.",
+  },
+  inLanguage: "es-CO",
+}}
+>
+
+<section
+class="mx-auto max-w-[85rem] space-y-8 px-4 pt-16 sm:px-6 lg:px-8 2xl:max-w-full"
+>
+<!--Page header-->
+<div class="mx-auto max-w-3xl text-left sm:text-center">
+  <h1
+    class="block text-balance text-4xl font-bold tracking-tight text-neutral-800 dark:text-neutral-200 md:text-5xl lg:text-6xl"
+  >
+    {title}
+  </h1>
+
+  <p
+    class="mt-4 text-pretty text-lg text-neutral-600 dark:text-neutral-400"
+  >
+    {subTitle}
+  </p>
+</div>
+</section>
+    
+</MainLayout>

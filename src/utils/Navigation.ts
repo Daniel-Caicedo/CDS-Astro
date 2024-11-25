@@ -3,7 +3,7 @@
 const navBarLinks = [
     { name: "Home", url: "/" },
     { name: "Servicios", url: "#" },
-    { name: "Vlog", url: "#" },
+    { name: "Vlog", url: "/blog" },
     { name: "Contactanos", url: "#" },
   ];
   // An array of links for footer un arreglo de links para el footer
