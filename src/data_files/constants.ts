@@ -31,6 +31,6 @@ export const OG = {
   locale: "es_CO",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}:  Servicios de seguridad movil , vigilancia escolta`,
+  title: `${SITE.title}:  Servicios de seguridad movil , vigilancia escolta.`,
   description: "Protege tu negocio o proyectos con los servicios de primera de Cordon de seguridad . Con la confianza de lideres de la industria, Cordon  ofrece sencillez, asequibilidad, y fiabilidad. Experimente la diferencia con un servicio centrado en el usuario y herramientas de vanguardia. ¡Empieza a explorar ahora!",
 };

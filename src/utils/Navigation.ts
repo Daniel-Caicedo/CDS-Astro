@@ -12,7 +12,7 @@ const navBarLinks = [
       section: "Ecosistema",
       links: [
        
-        { name: "Herramientas y Equipo", url: "/products" },
+        { name: "Herramientas y Equipo", url: "#" },
        
       ],
     },
@@ -20,7 +20,7 @@ const navBarLinks = [
       section: "Compañia",
       links: [
         { name: "Sobre nosotros", url: "#" },
-        { name: "Vlog", url: "#" },
+        { name: "Vlog", url: "/blog" },
         { name: "Puestos ", url: "#" },
         { name: "Clientes", url: "#" },
       ],
