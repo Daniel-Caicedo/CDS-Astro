@@ -34,3 +34,6 @@ export const OG = {
   title: `${SITE.title}:  Servicios de seguridad movil , vigilancia escolta.`,
   description: "Protege tu negocio o proyectos con los servicios de primera de Cordon de seguridad . Con la confianza de lideres de la industria, Cordon  ofrece sencillez, asequibilidad, y fiabilidad. Experimente la diferencia con un servicio centrado en el usuario y herramientas de vanguardia. ¡Empieza a explorar ahora!",
 };
+
+export const Article_Limit = 4;
+export const Article_page = 2;
