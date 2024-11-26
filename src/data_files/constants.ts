@@ -36,4 +36,6 @@ export const OG = {
 };
 
 export const Article_Limit = 4;
-export const Article_page = 2;
+export const Article_page = 3;
+
+// esta chimbada va a ser constante en toda la pagina , tenemos el SEO , la informacion de pagina "PAGE" y el open graph , es decir como se veran los links cuando se comparte la pagina.
