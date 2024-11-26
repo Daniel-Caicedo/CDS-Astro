@@ -5,7 +5,7 @@ author: "pepito perez"
 authorImage: "@/images/blog/brad.avif"
 authorImageAlt: "el avatar del señor brad"
 pubDate: 2024-02-10
-cardImage: "/images/blog/post-2.avif"
+cardImage: "@/images/blog/post-2.avif"
 cardImageAlt: "Man in black sweatpants using DEWALT circular saw and cutting a wood plank"
 readTime: 5
 tags: ["safety", "craftsmanship", "management" ]

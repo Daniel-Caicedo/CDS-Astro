@@ -12,10 +12,11 @@ interface Props {
 ---
 
 <div class="flex-shrink-0">
-  <Image
-    class="size-10 rounded-full sm:h-14 sm:w-14"
-    src={blogEntry.data.authorImage}
-    alt={blogEntry.data.authorImageAlt}
+    <Image
+    src={blogEntry.data.cardImage} 
+    alt={`Image of ${blogEntry.data.cardImageAlt}`} 
+    class="w-16 h-16 rounded-full shadow-lg"
+  
     draggable={"false"}
     format={"avif"}
   />
