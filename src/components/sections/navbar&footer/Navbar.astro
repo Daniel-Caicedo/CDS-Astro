@@ -4,7 +4,7 @@ import NavLink from "@components/sections/ui/links/NavLink.astro";
 import esStrings from "@utils/Navigation.ts";
 import enStrings from "@utils/En/Navigation.ts";
 import BrandLogo from "@components/BrandLogo.astro";
-import LanguagePicker from "@components/sections/ui/LanguagePicker.astro";
+
 import ThemeIcon from "@components/ThemeIcon.astro";
 // Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "fr" ? enStrings : esStrings;
@@ -89,7 +89,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         ))}
 
        
-        <LanguagePicker />
+     
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
           <ThemeIcon />
